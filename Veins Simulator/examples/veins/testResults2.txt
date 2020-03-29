@@ -1,0 +1,290 @@
+v2x:false
+startTime:1299
+stopTime:1992
+totalTime:693
+totalStoppedTime: 176
+totalDistance:1517.03
+CO2 emission:160.08
+% of time in full throtle: 71.8615%
+bigGrid:false
+###
+1
+----------------------
+v2x:true
+startTime:518
+stopTime:1027
+totalTime:509
+totalStoppedTime: 0
+totalDistance:1508.46
+CO2 emission:159.666
+% of time in full throtle: 98.8212%
+bigGrid:false
+###
+v2x:false
+startTime:518
+stopTime:1122
+totalTime:604
+totalStoppedTime: 88
+totalDistance:1508.39
+CO2 emission:161.57
+% of time in full throtle: 81.9536%
+bigGrid:false
+###
+2
+----------------------
+v2x:true
+startTime:1842
+stopTime:2354
+totalTime:512
+totalStoppedTime: 0
+totalDistance:1522.02
+CO2 emission:159.666
+% of time in full throtle: 98.8281%
+bigGrid:false
+###
+v2x:false
+startTime:1842
+stopTime:2354
+totalTime:512
+totalStoppedTime: 0
+totalDistance:1522.02
+CO2 emission:159.666
+% of time in full throtle: 98.8281%
+bigGrid:false
+###
+3
+----------------------
+v2x:true
+startTime:1395
+stopTime:1907
+totalTime:512
+totalStoppedTime: 0
+totalDistance:1521.31
+CO2 emission:159.666
+% of time in full throtle: 372.266%
+bigGrid:false
+###
+v2x:false
+startTime:1395
+stopTime:1912
+totalTime:517
+totalStoppedTime: 2
+totalDistance:1521.85
+CO2 emission:159.666
+% of time in full throtle: 97.0986%
+bigGrid:false
+###
+4
+----------------------
+v2x:true
+startTime:1007
+stopTime:1516
+totalTime:509
+totalStoppedTime: 0
+totalDistance:1508.46
+CO2 emission:159.666
+% of time in full throtle: 98.8212%
+bigGrid:false
+###
+v2x:false
+startTime:1007
+stopTime:1572
+totalTime:565
+totalStoppedTime: 51
+totalDistance:1508.55
+CO2 emission:160.246
+% of time in full throtle: 88.3186%
+bigGrid:false
+###
+5
+----------------------
+v2x:true
+startTime:292
+stopTime:958
+totalTime:666
+totalStoppedTime: 0
+totalDistance:1526.01
+CO2 emission:160.373
+% of time in full throtle: 118.619%
+bigGrid:false
+###
+v2x:false
+startTime:292
+stopTime:963
+totalTime:671
+totalStoppedTime: 2
+totalDistance:1525.9
+CO2 emission:161.528
+% of time in full throtle: 72.8763%
+bigGrid:false
+###
+6
+----------------------
+v2x:true
+startTime:1664
+stopTime:2176
+totalTime:512
+totalStoppedTime: 1
+totalDistance:1506.14
+CO2 emission:158.409
+% of time in full throtle: 424.414%
+bigGrid:false
+###
+8
+----------------------
+v2x:true
+startTime:977
+stopTime:1488
+totalTime:511
+totalStoppedTime: 0
+totalDistance:1523.15
+CO2 emission:159.666
+% of time in full throtle: 99.0215%
+bigGrid:false
+###
+v2x:false
+startTime:977
+stopTime:1494
+totalTime:517
+totalStoppedTime: 2
+totalDistance:1521.94
+CO2 emission:159.808
+% of time in full throtle: 97.4855%
+bigGrid:false
+###
+9
+----------------------
+v2x:true
+startTime:564
+stopTime:1076
+totalTime:512
+totalStoppedTime: 0
+totalDistance:1522.02
+CO2 emission:159.666
+% of time in full throtle: 98.8281%
+bigGrid:false
+###
+v2x:false
+startTime:564
+stopTime:1076
+totalTime:512
+totalStoppedTime: 0
+totalDistance:1522.02
+CO2 emission:159.666
+% of time in full throtle: 98.8281%
+bigGrid:false
+###
+11
+----------------------
+v2x:true
+startTime:1423
+stopTime:2166
+totalTime:743
+totalStoppedTime: 0
+totalDistance:2007.3
+CO2 emission:210.937
+% of time in full throtle: 507.268%
+bigGrid:false
+###
+12
+----------------------
+v2x:true
+startTime:1313
+stopTime:1825
+totalTime:512
+totalStoppedTime: 0
+totalDistance:1522.02
+CO2 emission:159.666
+% of time in full throtle: 98.8281%
+bigGrid:false
+###
+v2x:false
+startTime:1313
+stopTime:1825
+totalTime:512
+totalStoppedTime: 0
+totalDistance:1522.02
+CO2 emission:159.666
+% of time in full throtle: 98.8281%
+bigGrid:false
+###
+13
+----------------------
+v2x:false
+startTime:1316
+stopTime:4220
+totalTime:2904
+totalStoppedTime: 468
+totalDistance:1524.41
+CO2 emission:164.03
+% of time in full throtle: 12.2245%
+bigGrid:false
+###
+14
+----------------------
+v2x:true
+startTime:1674
+stopTime:2284
+totalTime:610
+totalStoppedTime: 20
+totalDistance:1518.13
+CO2 emission:158.538
+% of time in full throtle: 1289.02%
+bigGrid:false
+###
+15
+----------------------
+v2x:true
+startTime:1024
+stopTime:1557
+totalTime:533
+totalStoppedTime: 0
+totalDistance:1521.83
+CO2 emission:159.529
+% of time in full throtle: 287.617%
+bigGrid:false
+###
+v2x:false
+startTime:1024
+stopTime:1562
+totalTime:538
+totalStoppedTime: 2
+totalDistance:1521.84
+CO2 emission:159.529
+% of time in full throtle: 92.9368%
+bigGrid:false
+###
+16
+----------------------
+v2x:true
+startTime:183
+stopTime:694
+totalTime:511
+totalStoppedTime: 0
+totalDistance:1523.15
+CO2 emission:159.666
+% of time in full throtle: 99.0215%
+bigGrid:false
+###
+v2x:false
+startTime:183
+stopTime:700
+totalTime:517
+totalStoppedTime: 2
+totalDistance:1521.94
+CO2 emission:159.808
+% of time in full throtle: 97.4855%
+bigGrid:false
+###
+17
+----------------------
+v2x:true
+startTime:82
+stopTime:758
+totalTime:676
+totalStoppedTime: 0
+totalDistance:2009.98
+CO2 emission:211.212
+% of time in full throtle: 99.2604%
+bigGrid:false
+###

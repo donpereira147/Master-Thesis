@@ -1,0 +1,93 @@
+<routes>
+	<!-- Vehicles /-->
+	<vType accel="1.0" decel="5.0" id="NormalVehicle" length="2.0" maxSpeed="2.5" sigma="0.0"  type="NormalVehicle"/>
+	<vType accel="1.0" decel="5.0" id="JustKerbsVehicle" length="2.0" maxSpeed="2.5" sigma="0.0"  type="JustKerbsVehicle"/>
+	<vType accel="1.0" decel="5.0" id="EmergencyVehicle" length="2.5" maxSpeed="3.0" sigma="0.0" type="EmergencyVehicle"/>
+	<vType accel="1.0" decel="5.0" id="Bus" length="6" maxSpeed="1.1" sigma="0.0"/>
+	<vType accel="1.0" decel="5.0" id="SlowVehicle" length="2" maxSpeed="0.2" sigma="0.0" type="SlowVehicle"/>
+	<vType accel="1.0" decel="5.0" id="AccidentVehicle" length="2" maxSpeed="2" sigma="0.0" type="AccidentVehicles"/>
+	<vType accel="1.0" decel="5.0" id="JustSirenEmergencyVehicle" length="2.5" maxSpeed="3.0" sigma="0.0" type="JustSirenEmergencyVehicle"/>
+	<vType accel="1.0" decel="5.0" id="SocketEmergencyVehicle" length="2.5" maxSpeed="3.0" sigma="0.0" type="SocketEmergencyVehicle"/>
+	<vType accel="1.0" decel="5.0" id="SocketNormalVehicle" length="2.5" maxSpeed="2.5" sigma="0.0" type="SocketNormalVehicle"/>
+	<vType accel="1.0" decel="5.0" id="SocketRSUSimulatorVehicle" length="2.5" maxSpeed="2.5" sigma="0.0" type="SocketRSUSimulatorVehicle"/>
+
+
+	<!-- Routes /-->
+	
+	<route id="left" edges="29to1 1to6 6to36"/>
+	<route id="halfLeft" edges="36to6 6to11 11to31"/>
+	<route id="right" edges="30to5 5to10 10to15 15to32"/>
+	<route id="halfRight" edges="30to5 5to10 10to37"/>
+	<route id="oppositeRight" edges="32to15 15to10 10to5 5to30"/>
+	<route id="stop" edges="30to5 5to10 10to15 15to32"/>
+	<route id="stopAoContrario" edges="32to15 15to10 10to5 5to30"/>
+	<route id="anticlockLR" edges=" 32to15 15to10 10to5 5to4 4to3 3to2 2to1 1to6 6to11 11to12 12to13 13to14 14to15 15to32"/>
+	<route id="anticlockUR" edges="30to5 5to4 4to3 3to2 2to1 1to6 6to11 11to12 12to13 13to14 14to15 15to10 10to5 5to30"/>
+	<!--route id= "clockLL" edges=" 31to11 11to6 6to1 1to2 2to3 3to4 4to5 5to10 10to15 15to14 14to13 13to12 12to11 11to31"/-->
+	
+	<route id="estradaDeBaixoL2R" edges="31to11 11to12 12to13 13to14 14to15 15to32"/>
+	<route id="estradaDeCimaL2R" edges="29to1 1to2 2to3 3to4 4to5 5to30"/>
+	<route id="estradaDeCimaL2RRedux" edges="33to2 2to3 3to4 4to5 5to30"/>
+	<route id="estradaDeCimaR2L" edges="30to5 5to4 4to3 3to2 2to1 1to29"/>
+
+	<!-- Routes that cross traffic lights/-->
+	<route id="sem1" edges="32to15 15to10 10to28 28to9 9to22 22to27 27to8 8to21 21to26 26to7 7to20 20to6 6to1 1to29"/>
+	<route id="sem2" edges="30to5 5to10 10to28 28to9 9to18 18to4 4to3 3to17 17to8 8to21 21to26 26to7 7to16 16to2 2to1 1to29"/>
+	<route id="sem3" edges="32to15 15to14 14to25 25to9 9to18 18to4 4to5 5to30"/>
+	<route id="sem4" edges="32to15 15to14 14to13 13to24 24to8 8to17 17to3 3to4 4to5 5to30"/>
+	<route id="sem5" edges="32to15 15to14 14to13"/>
+	<route id="sem6" edges="31to11 11to12 12to23 23to7 7to26 26to21 21to8 8to17 17to3 3to4 4to5 5to30"/>
+	<route id="sem7" edges="30to5 5to4 4to18 18to9 9to28 28to10 10to15 15to32"/>
+	<route id="sem8" edges="31to11 11to6 6to20 20to7 7to23 23to12 12to13 13to24 24to8 8to17 17to3 3to2 2to16 16to7 7to20 20to6 6to1 1to29"/>
+	<route id="sem9" edges="31to11 11to6 6to20 20to7 7to26 26to21 21to8 8to27 27to22 22to9 9to28 28to10 10to15 15to32"/>
+	<route id="sem10" edges="29to1 1to2 2to16 16to7 7to26 26to21 21to8 8to24 24to13 13to14 14to15 15to32"/>
+	<route id="sem11" edges="29to1 1to6 6to20 20to7 7to26 26to21 21to8 8to17 17to3 3to4 4to18 18to9 9to22 22to27 27to8 8to17 17to3 3to2 2to1 1to29"/>
+	<route id="sem12" edges="29to1 1to6 6to20 20to7 7to26 26to21 21to8 8to17 17to3 3to4 4to18 18to9 9to28 28to10 10to15 15to32"/>
+	<route id="sem13" edges="30to5 5to10 10to28 28to9 9to18 18to4 4to3 3to17 17to8 8to21 21to26 26to7 7to20 20to6 6to1 1to29"/>
+	<route id="sem14" edges="30to5 5to10 10to28 28to9 9to18 18to4 4to3 3to17 17to8 8to21 21to26 26to7 7to23 23to12 12to11 11to31"/>
+	<route id="sem15" edges="30to5 5to4 4to18 18to9 9to25 25to14 14to15 15to32"/>
+	<!--route id="sem16" edges="30to5 5to4 4to3 3to17 17to8 8to24 24to13 13to12 12to23 23to7 7to20 20to6 6to1 1to29"/-->
+	<route id="sem17" edges="30to5 5to10 10to28 28to9 9to18 18to4 4to3 3to17 17to8 8to27 27to22 22to9 9to28 28to10 10to5 5to30"/>
+	
+	<route id="sem18" edges="36to6 6to20 20to7 7to26 26to21 21to8 8to17 17to3 3to4 4to5 5to30"/>
+	<route id="sem19" edges="36to6 6to20 20to7 7to23 23to12 12to13 13to14 14to15 15to32"/>
+	<route id="sem20" edges="33to2 2to16 16to7 7to23 23to12 12to11 11to31"/>
+	<route id="sem21" edges="33to2 2to16 16to7 7to20 20to6 6to1 1to29"/>
+	<route id="sem22" edges="38to12 12to23 23to7 7to16 16to2 2to1 1to29"/>
+	<route id="sem23" edges="38to12 12to23 23to7 7to26 26to21 21to8 8to17 17to3 3to4 4to5 5to30"/>
+	<route id="sem24" edges="34to3 3to17 17to8 8to21 21to26 26to7 7to16 16to2 2to1 1to29"/>
+	<route id="sem25" edges="34to3 3to17 17to8 8to21 21to26 26to7 7to23 23to12 12to11 11to31"/>
+	<route id="sem26" edges="34to3 3to17 17to8 8to24 24to13 13to39"/>
+	<route id="sem27" edges="34to3 3to17 17to8 8to21 21to26 26to7 7to16 16to2 2to33"/>
+	<route id="sem28" edges="39to13 13to24 24to8 8to17 17to3 3to34"/>
+	<route id="sem29" edges="39to13 13to24 24to8 8to27 27to22 22to9 9to18 18to4 4to35"/>
+	<route id="sem30" edges="37to10 10to28 28to9 9to25 25to14 14to40"/>
+	<route id="sem31" edges="37to10 10to28 28to9 9to18 18to4 4to35"/>
+	<route id="sem32" edges="35to4 4to18 18to9 9to28 28to10 10to37"/>
+	<route id="sem33" edges="40to14 14to25 25to9 9to18 18to4 4to35"/>
+	<!--route id="novoAcidente" edges="33to3 3to17 17to8 8to24 24to13 13to14 14to15 15to32"/-->
+	
+	<!-- Traffic Routes/-->	
+	<route id="transito" edges="39to13 13to14 14to40"/>
+	<route id="transitoContrario" edges=" 40to14 14to13 13to39"/>
+
+	<route id="Ambulance" edges="29to1 1to6 6to11 11to12 12to13 13to14 14to15 15to32"/>	
+	<!-- Accidents /-->	
+	<route id="routeAcidentada1" edges ="38to12 12to13"/>
+	<route id="routeAcidentada2" edges ="40to14 14to15"/>
+
+
+	<route id="penduloDireita" edges ="9to22 22to27 27to8 8to21 21to26 26to7"/>
+	<route id="penduloEsquerda" edges ="13to24 24to8 8to17 17to3"/>
+	<route id="penduloCima" edges ="2to3 3to4 4to5"/>
+
+	<!-- Vehicle Behaviour /-->
+
+	<!--transito -->
+	<vehicle depart="0" id="2" route="penduloDireita" type="SocketNormalVehicle"/>
+	<vehicle depart="9" id="1" route="penduloDireita" type="SocketEmergencyVehicle"/>
+	
+	
+
+	
+</routes>

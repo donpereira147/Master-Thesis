@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- debug config -->
+<launch>
+	<copy file="tests.net.xml" />
+	<copy file="withV2X.rou.xml" />
+	<copy file="shapes.poly.xml" />
+	<copy file="tests.sumo.cfg" type="config" />
+</launch>
+

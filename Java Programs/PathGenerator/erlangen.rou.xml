@@ -1,0 +1,34 @@
+<routes>
+	<vType accel="1.0" decel="5.0" id="NormalVehicle" length="2.0" maxSpeed="2.5" sigma="0.0"  type="NormalVehicle"/>
+	<vType accel="1.0" decel="5.0" id="JustKerbsVehicle" length="2.0" maxSpeed="2.5" sigma="0.0"  type="JustKerbsVehicle"/>
+	<vType accel="1.0" decel="5.0" id="EmergencyVehicle" length="2.5" maxSpeed="3.0" sigma="0.0" type="EmergencyVehicle"/>
+	<vType accel="1.0" decel="5.0" id="Bus" length="6" maxSpeed="1.1" sigma="0.0"/>
+	<vType accel="1.0" decel="5.0" id="SlowVehicle" length="2" maxSpeed="0.2" sigma="0.0" type="SlowVehicle"/>
+	<vType accel="1.0" decel="5.0" id="AccidentVehicle" length="2" maxSpeed="2" sigma="0.0" type="AccidentVehicles"/>
+
+	<route id=" 0"  edges="33to2 2to3 3to4 4to18 18to9 9to28 28to10 10to15 15to14 14to13 13to24 24to8 8to21 21to26 26to7 7to20 20to6 6to11 11to12 12to38 "/>
+	<route id=" 1"  edges="31to11 11to12 12to23 23to7 7to16 16to2 2to3 3to17 17to8 8to27 27to22 22to9 9to18 18to4 4to5 5to10 10to15 15to32 "/>
+	<route id=" 2"  edges="30to5 5to4 4to18 18to9 9to28 28to10 10to15 15to14 14to13 13to24 24to8 8to21 21to26 26to7 7to23 23to12 12to11 11to6 6to1 1to2 2to3 3to34 "/>
+	<route id=" 3"  edges="30to5 5to10 10to15 15to14 14to25 25to9 9to22 22to27 27to8 8to24 24to13 13to12 12to11 11to6 6to20 20to7 7to16 16to2 2to3 3to34 "/>
+	<route id=" 4"  edges="29to1 1to6 6to36 36to5 5to10 10to15 15to14 14to13 13to24 24to8 8to17 17to3 3to2 2to33 "/>
+	<route id=" 5"  edges="30to5 5to4 4to3 3to17 17to8 8to21 21to26 26to7 7to20 20to6 6to11 11to31 "/>
+	<route id=" 6"  edges="37to10 10to5 5to4 4to3 3to17 17to8 8to27 27to22 22to9 9to25 25to14 14to13 13to12 12to23 23to7 7to20 20to6 6to1 1to29 "/>
+	<route id=" 7"  edges="31to11 11to12 12to13 13to14 14to25 25to9 9to18 18to4 4to3 3to2 2to16 16to7 7to20 20to6 6to36 36to5 5to10 10to15 15to32 "/>
+	<route id=" 8"  edges="38to12 12to13 13to14 14to15 15to10 10to28 28to9 9to22 22to27 27to8 8to21 21to26 26to7 7to20 20to6 6to36 "/>
+	<route id=" 9"  edges="36to5 5to4 4to3 3to2 2to1 1to6 6to20 20to7 7to26 26to21 21to8 8to24 24to13 13to14 14to25 25to9 9to28 28to10 10to37 "/>
+	<route id=" 10"  edges="40to14 14to15 15to10 10to28 28to9 9to22 22to27 27to8 8to17 17to3 3to2 2to16 16to7 7to23 23to12 12to11 11to31 "/>
+	<route id=" 11"  edges="30to5 5to4 4to18 18to9 9to28 28to10 10to15 15to14 14to13 13to24 24to8 8to21 21to26 26to7 7to23 23to12 12to11 11to31 "/>
+
+	<vehicle depart="167" id="8" route="9" type="AccidentVehicle"/>
+	<vehicle depart="294" id="10" route="5" type="SlowVehicle"/>
+	<vehicle depart="397" id="1" route="3" type="SlowVehicle"/>
+	<vehicle depart="832" id="3" route="10" type="AccidentVehicle"/>
+	<vehicle depart="1169" id="9" route="0" type="JustKerbsVehicle"/>
+	<vehicle depart="1373" id="7" route="11" type="SlowVehicle"/>
+	<vehicle depart="1538" id="0" route="4" type="Bus"/>
+	<vehicle depart="1632" id="4" route="0" type="NormalVehicle"/>
+	<vehicle depart="1718" id="11" route="11" type="EmergencyVehicle"/>
+	<vehicle depart="1756" id="6" route="3" type="NormalVehicle"/>
+	<vehicle depart="1929" id="5" route="6" type="NormalVehicle"/>
+	<vehicle depart="1980" id="2" route="6" type="SlowVehicle"/>
+</routes>

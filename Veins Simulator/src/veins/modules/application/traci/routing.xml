@@ -1,0 +1,181 @@
+<routes>
+	<route id="1to2" xI ="30" yI="30" xF ="280" yF="30"/>
+	<route id="2to1" xI ="280" yI="30" xF ="30" yF="30"/>
+	<route id="2to3" xI ="280" yI="30" xF ="530" yF="30"/>
+	<route id="3to2" xI ="530" yI="30" xF ="280" yF="30"/>
+	<route id="3to4" xI ="530" yI="30" xF ="780" yF="30"/>
+	<route id="4to3" xI ="780" yI="30" xF ="530" yF="30"/>
+	<route id="4to5" xI ="780" yI="30" xF ="1030" yF="30"/>
+	<route id="5to4" xI ="1030" yI="30" xF ="780" yF="30"/>
+	<route id="5to6" xI ="1030" yI="30" xF ="1280" yF="30"/>
+	<route id="6to5" xI ="1280" yI="30" xF ="1030" yF="30"/>
+	<route id="6to7" xI ="1280" yI="30" xF ="1530" yF="30"/>
+	<route id="7to6" xI ="1530" yI="30" xF ="1280" yF="30"/>
+	<route id="7to8" xI ="1530" yI="30" xF ="1780" yF="30"/>
+	<route id="8to7" xI ="1780" yI="30" xF ="1530" yF="30"/>
+
+	<route id="9to" xI ="30" yI="280" xF ="280" yF="280"/>
+
+
+	<route id="10to9" xI ="280" yI="280" xF ="30" yF="280"/>
+	<route id="10to11" xI ="280" yI="280" xF ="530" yF="280"/>
+	<route id="11to10" xI ="530" yI="280" xF ="280" yF="280"/>
+	<route id="11to12" xI ="530" yI="280" xF ="780" yF="280"/>
+	<route id="12to11" xI ="780" yI="280" xF ="530" yF="280"/>
+	<route id="12to13" xI ="780" yI="280" xF ="1030" yF="280"/>
+	<route id="13to12" xI ="1030" yI="280" xF ="780" yF="280"/>
+	<route id="13to14" xI ="1030" yI="280" xF ="1280" yF="280"/>
+	<route id="14to13" xI ="1280" yI="280" xF ="1030" yF="280"/>
+	<route id="14to15" xI ="1280" yI="280" xF ="1530" yF="280"/>
+	<route id="15to14" xI ="1530" yI="280" xF ="1280" yF="280"/>
+	<route id="15to16" xI ="1530" yI="280" xF ="1780" yF="280"/>
+	<route id="16to15" xI ="1780" yI="280" xF ="1530" yF="280"/>
+
+	<route id="17to18" xI ="30" yI="530" xF ="280" yF="530"/>
+	<route id="18to17" xI ="280" yI="530" xF ="30" yF="530"/>
+	<route id="18to19" xI ="280" yI="530" xF ="530" yF="530"/>
+	<route id="19to18" xI ="530" yI="530" xF ="280" yF="530"/>
+	<route id="19to20" xI ="530" yI="530" xF ="780" yF="530"/>
+	<route id="20to19" xI ="780" yI="530" xF ="530" yF="530"/>
+	<route id="20to21" xI ="780" yI="530" xF ="1030" yF="530"/>
+	<route id="21to20" xI ="1030" yI="530" xF ="780" yF="530"/>
+	<route id="21to22" xI ="1030" yI="530" xF ="1280" yF="530"/>
+	<route id="22to21" xI ="1280" yI="530" xF ="1030" yF="530"/>
+	<route id="22to23" xI ="1280" yI="530" xF ="1530" yF="530"/>
+	<route id="23to22" xI ="1530" yI="530" xF ="1280" yF="530"/>
+	<route id="23to24" xI ="1530" yI="530" xF ="1780" yF="530"/>
+	<route id="24to23" xI ="1780" yI="530" xF ="1530" yF="530"/>
+
+	<route id="25to26" xI ="30" yI="780" xF ="280" yF="780"/>
+	<route id="26to25" xI ="280" yI="780" xF ="30" yF="780"/>
+	<route id="26to27" xI ="280" yI="780" xF ="530" yF="780"/>
+	<route id="27to26" xI ="530" yI="780" xF ="280" yF="780"/>
+	<route id="27to28" xI ="530" yI="780" xF ="780" yF="780"/>
+	<route id="28to27" xI ="780" yI="780" xF ="530" yF="780"/>
+	<route id="28to29" xI ="780" yI="780" xF ="1030" yF="780"/>
+	<route id="29to28" xI ="1030" yI="780" xF ="780" yF="780"/>
+	<route id="29to30" xI ="1030" yI="780" xF ="1280" yF="780"/>
+	<route id="30to29" xI ="1280" yI="780" xF ="1030" yF="780"/>
+	<route id="30to31" xI ="1280" yI="780" xF ="1530" yF="780"/>
+	<route id="31to30" xI ="1530" yI="780" xF ="1280" yF="780"/>
+	<route id="31to32" xI ="1530" yI="780" xF ="1780" yF="780"/>
+	<route id="32to31" xI ="1780" yI="780" xF ="1530" yF="780"/>
+
+	<route id="33to34" xI ="30" yI="1030" xF ="280" yF="1030"/>
+	<route id="34to33" xI ="280" yI="1030" xF ="30" yF="1030"/>
+	<route id="34to35" xI ="280" yI="1030" xF ="530" yF="1030"/>
+	<route id="35to34" xI ="530" yI="1030" xF ="280" yF="1030"/>
+	<route id="35to36" xI ="530" yI="1030" xF ="780" yF="1030"/>
+	<route id="36to35" xI ="780" yI="1030" xF ="530" yF="1030"/>
+	<route id="36to37" xI ="780" yI="1030" xF ="1030" yF="1030"/>
+	<route id="37to36" xI ="1030" yI="1030" xF ="780" yF="1030"/>
+	<route id="37to38" xI ="1030" yI="1030" xF ="1280" yF="1030"/>
+	<route id="38to37" xI ="1280" yI="1030" xF ="1030" yF="1030"/>
+	<route id="38to39" xI ="1280" yI="1030" xF ="1530" yF="1030"/>
+	<route id="39to38" xI ="1530" yI="1030" xF ="1280" yF="1030"/>
+	<route id="39to40" xI ="1530" yI="1030" xF ="1780" yF="1030"/>
+	<route id="40to39" xI ="1780" yI="1030" xF ="1530" yF="1030"/>
+
+	<route id="41to42" xI ="30" yI="1280" xF ="280" yF="1280"/>
+	<route id="42to41" xI ="280" yI="1280" xF ="30" yF="1280"/>
+	<route id="42to43" xI ="280" yI="1280" xF ="530" yF="1280"/>
+	<route id="43to42" xI ="530" yI="1280" xF ="280" yF="1280"/>
+	<route id="43to44" xI ="530" yI="1280" xF ="780" yF="1280"/>
+	<route id="44to43" xI ="780" yI="1280" xF ="530" yF="1280"/>
+	<route id="44to45" xI ="780" yI="1280" xF ="1030" yF="1280"/>
+	<route id="45to44" xI ="1030" yI="1280" xF ="780" yF="1280"/>
+	<route id="45to46" xI ="1030" yI="1280" xF ="1280" yF="1280"/>
+	<route id="46to45" xI ="1280" yI="1280" xF ="1030" yF="1280"/>
+	<route id="46to47" xI ="1280" yI="1280" xF ="1530" yF="1280"/>
+	<route id="47to46" xI ="1530" yI="1280" xF ="1280" yF="1280"/>
+	<route id="47to48" xI ="1530" yI="1280" xF ="1780" yF="1280"/>
+	<route id="48to47" xI ="1780" yI="1280" xF ="1530" yF="1280"/>
+
+	<route id="1to9" xI ="30" yI="1530" xF ="30" yF="1780"/>
+	<route id="9to1" xI ="30" yI="1780" xF ="30" yF="1530"/>
+	<route id="9to17" xI ="30" yI="1780" xF ="30" yF="2030"/>
+	<route id="17to9" xI ="30" yI="2030" xF ="30" yF="1780"/>
+	<route id="17to25" xI ="30" yI="2030" xF ="30" yF="2280"/>
+	<route id="25to17" xI ="30" yI="2280" xF ="30" yF="2030"/>
+	<route id="25to33" xI ="30" yI="2280" xF ="30" yF="2530"/>
+	<route id="33to25" xI ="30" yI="2530" xF ="30" yF="2280"/>
+	<route id="33to41" xI ="30" yI="2530" xF ="30" yF="2780"/>
+	<route id="41to33" xI ="30" yI="2780" xF ="30" yF="2530"/>
+
+	<route id="2to10" xI ="280" yI="30" xF ="280" yF="280"/>
+	<route id="10to2" xI ="280" yI="280" xF ="280" yF="30"/>
+	<route id="10to18" xI ="280" yI="280" xF ="280" yF="530"/>
+	<route id="18to10" xI ="280" yI="530" xF ="280" yF="280"/>
+	<route id="18to26" xI ="280" yI="530" xF ="280" yF="780"/>
+	<route id="26to18" xI ="280" yI="780" xF ="280" yF="530"/>
+	<route id="26to34" xI ="280" yI="780" xF ="280" yF="1030"/>
+	<route id="34to26" xI ="280" yI="1030" xF ="280" yF="780"/>
+	<route id="34to42" xI ="280" yI="1030" xF ="280" yF="1280"/>
+	<route id="42to34" xI ="280" yI="1280" xF ="280" yF="1030"/>
+
+	<route id="3to11" xI ="530" yI="30" xF ="530" yF="280"/>
+	<route id="11to3" xI ="530" yI="280" xF ="530" yF="30"/>
+	<route id="11to19" xI ="530" yI="280" xF ="530" yF="530"/>
+	<route id="19to11" xI ="530" yI="530" xF ="530" yF="280"/>
+	<route id="19to27" xI ="530" yI="530" xF ="530" yF="780"/>
+	<route id="27to19" xI ="530" yI="780" xF ="530" yF="530"/>
+	<route id="27to35" xI ="530" yI="780" xF ="530" yF="1030"/>
+	<route id="35to27" xI ="530" yI="1030" xF ="530" yF="780"/>
+	<route id="35to43" xI ="530" yI="1030" xF ="530" yF="1280"/>
+	<route id="43to35" xI ="530" yI="1280" xF ="530" yF="1030"/>
+
+	<route id="4to12" xI ="780" yI="30" xF ="780" yF="280"/>
+	<route id="12to4" xI ="780" yI="280" xF ="780" yF="30"/>
+	<route id="12to20" xI ="780" yI="280" xF ="780" yF="530"/>
+	<route id="20to12" xI ="780" yI="530" xF ="780" yF="280"/>
+	<route id="20to28" xI ="780" yI="530" xF ="780" yF="780"/>
+	<route id="28to20" xI ="780" yI="780" xF ="780" yF="530"/>
+	<route id="28to36" xI ="780" yI="780" xF ="780" yF="1030"/>
+	<route id="36to28" xI ="780" yI="1030" xF ="780" yF="780"/>
+	<route id="36to44" xI ="780" yI="1030" xF ="780" yF="1280"/>
+	<route id="44to36" xI ="780" yI="1280" xF ="780" yF="1030"/>
+
+	<route id="5to13" xI ="1030" yI="30" xF ="1030" yF="280"/>
+	<route id="13to5" xI ="1030" yI="280" xF ="1030" yF="30"/>
+	<route id="13to21" xI ="1030" yI="280" xF ="1030" yF="530"/>
+	<route id="21to13" xI ="1030" yI="530" xF ="1030" yF="280"/>
+	<route id="21to29" xI ="1030" yI="530" xF ="1030" yF="780"/>
+	<route id="29to21" xI ="1030" yI="780" xF ="1030" yF="530"/>
+	<route id="29to37" xI ="1030" yI="780" xF ="1030" yF="1030"/>
+	<route id="37to29" xI ="1030" yI="1030" xF ="1030" yF="780"/>
+	<route id="37to45" xI ="1030" yI="1030" xF ="1030" yF="1280"/>
+	<route id="45to37" xI ="1030" yI="1280" xF ="1030" yF="1030"/>
+
+	<route id="6to14" xI ="1280" yI="30" xF ="1280" yF="280"/>
+	<route id="14to6" xI ="1280" yI="280" xF ="1280" yF="30"/>
+	<route id="14to22" xI ="1280" yI="280" xF ="1280" yF="530"/>
+	<route id="22to14" xI ="1280" yI="530" xF ="1280" yF="280"/>
+	<route id="22to30" xI ="1280" yI="530" xF ="1280" yF="780"/>
+	<route id="30to22" xI ="1280" yI="780" xF ="1280" yF="530"/>
+	<route id="30to38" xI ="1280" yI="780" xF ="1280" yF="1030"/>
+	<route id="38to30" xI ="1280" yI="1030" xF ="1280" yF="780"/>
+	<route id="38to46" xI ="1280" yI="1030" xF ="1280" yF="1280"/>
+	<route id="46to38" xI ="1280" yI="1280" xF ="1280" yF="1030"/>
+
+	<route id="7to15" xI ="1530" yI="30" xF ="1530" yF="280"/>
+	<route id="15to7" xI ="1530" yI="280" xF ="1530" yF="30"/>
+	<route id="15to23" xI ="1530" yI="280" xF ="1530" yF="530"/>
+	<route id="23to15" xI ="1530" yI="530" xF ="1530" yF="280"/>
+	<route id="23to31" xI ="1530" yI="530" xF ="1530" yF="780"/>
+	<route id="31to23" xI ="1530" yI="780" xF ="1530" yF="530"/>
+	<route id="31to39" xI ="1530" yI="780" xF ="1530" yF="1030"/>
+	<route id="39to31" xI ="1530" yI="1030" xF ="1530" yF="780"/>
+	<route id="39to47" xI ="1530" yI="1030" xF ="1530" yF="1280"/>
+	<route id="47to39" xI ="1530" yI="1280" xF ="1530" yF="1030"/>
+
+	<route id="8to16" xI ="1780" yI="30" xF ="1780" yF="280"/>
+	<route id="16to8" xI ="1780" yI="280" xF ="1780" yF="30"/>
+	<route id="16to24" xI ="1780" yI="280" xF ="1780" yF="530"/>
+	<route id="24to16" xI ="1780" yI="530" xF ="1780" yF="280"/>
+	<route id="24to32" xI ="1780" yI="530" xF ="1780" yF="780"/>
+	<route id="32to24" xI ="1780" yI="780" xF ="1780" yF="530"/>
+	<route id="32to40" xI ="1780" yI="780" xF ="1780" yF="1030"/>
+	<route id="40to32" xI ="1780" yI="1030" xF ="1780" yF="780"/>
+	<route id="40to48" xI ="1780" yI="1030" xF ="1780" yF="1280"/>
+	<route id="48to40" xI ="1780" yI="1280" xF ="1780" yF="1030"/>
+</routes>

@@ -1,0 +1,123 @@
+-- MySQL Workbench Forward Engineering
+
+SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
+SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
+SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION';
+
+-- -----------------------------------------------------
+-- Schema tese
+-- -----------------------------------------------------
+
+-- -----------------------------------------------------
+-- Schema tese
+-- -----------------------------------------------------
+CREATE SCHEMA IF NOT EXISTS `tese` DEFAULT CHARACTER SET utf8 ;
+USE `tese` ;
+
+-- -----------------------------------------------------
+-- Table `tese`.`Time`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `tese`.`Time` (
+  `idTime` INT NOT NULL AUTO_INCREMENT,
+  `elapsedTime` INT NOT NULL,
+  `stoppedTime` INT NOT NULL,
+  PRIMARY KEY (`idTime`))
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `tese`.`Emission`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `tese`.`Emission` (
+  `idEmission` INT NOT NULL AUTO_INCREMENT,
+  `co2` FLOAT NOT NULL,
+  PRIMARY KEY (`idEmission`))
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `tese`.`Distance`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `tese`.`Distance` (
+  `idDistance` INT NOT NULL AUTO_INCREMENT,
+  `totalDistance` FLOAT NOT NULL,
+  PRIMARY KEY (`idDistance`))
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `tese`.`Result`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `tese`.`Result` (
+  `idResult` INT NOT NULL AUTO_INCREMENT,
+  `idTime` INT NOT NULL,
+  `idEmission` INT NOT NULL,
+  `idDistance` INT NOT NULL,
+  `v2x` TINYINT NOT NULL,
+  `‏bigGrid` TINYINT NOT NULL,
+  `simNumber` INT NOT NULL,
+  PRIMARY KEY (`idResult`),
+  INDEX `fk_Result_Time_idx` (`idTime` ASC) VISIBLE,
+  INDEX `fk_Result_Emission1_idx` (`idEmission` ASC) VISIBLE,
+  INDEX `fk_Result_Distance1_idx` (`idDistance` ASC) VISIBLE,
+  CONSTRAINT `fk_Result_Time`
+    FOREIGN KEY (`idTime`)
+    REFERENCES `tese`.`Time` (`idTime`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_Result_Emission1`
+    FOREIGN KEY (`idEmission`)
+    REFERENCES `tese`.`Emission` (`idEmission`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_Result_Distance1`
+    FOREIGN KEY (`idDistance`)
+    REFERENCES `tese`.`Distance` (`idDistance`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `tese`.`Distance_Gain`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `tese`.`Distance_Gain` (
+  `idDistance_Gain` INT NOT NULL AUTO_INCREMENT,
+  `gain` FLOAT NOT NULL,
+  PRIMARY KEY (`idDistance_Gain`))
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `tese`.`ElapsedTime_Gain`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `tese`.`ElapsedTime_Gain` (
+  `idElapsedTime_Gain` INT NOT NULL AUTO_INCREMENT,
+  `gain` FLOAT NOT NULL,
+  PRIMARY KEY (`idElapsedTime_Gain`))
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `tese`.`StoppedTime_Gain`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `tese`.`StoppedTime_Gain` (
+  `idStoppedTime_Gain` INT NOT NULL AUTO_INCREMENT,
+  `gain` FLOAT NOT NULL,
+  PRIMARY KEY (`idStoppedTime_Gain`))
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `tese`.`Emission_Gain`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `tese`.`Emission_Gain` (
+  `idEmission_Gain` INT NOT NULL AUTO_INCREMENT,
+  `gain` FLOAT NOT NULL,
+  PRIMARY KEY (`idEmission_Gain`))
+ENGINE = InnoDB;
+
+
+SET SQL_MODE=@OLD_SQL_MODE;
+SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
+SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
