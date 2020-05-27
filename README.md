@@ -1,4 +1,3 @@
-#Master Thesis
 Emergency vehicles are bound to lose unnecessary time on their response. Furthermore,
 research shows that emergency vehicles are prone to fatal crashes while on an emergency
 call. Emergency vehicle’s response time is commonly affected by factors unbeknownst to it,
